@@ -36,7 +36,7 @@ if (!$produit) {
 <nav class="navbar">
     <div class="nav-logo">
         <!-- Logo du site -->
-        <img src="../assets/css/image/logo.jpg" alt="logo">
+        <img src="../assets/image/logo.jpg" alt="logo">
         <span>Parapharmacie</span>
     </div>
 
