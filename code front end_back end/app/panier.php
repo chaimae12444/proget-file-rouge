@@ -102,7 +102,7 @@ $total = array_sum(array_map(fn($i) => $i['prix'] * $i['Qte'], $panier));
 <!-- Navbar -->
 <nav class="navbar">
     <div class="nav-logo">
-        <img src="../assets/css/image/logo.jpg" alt="logo">
+        <img src="../assets/image/logo.jpg" alt="logo">
         <span>Parapharmacie</span>
     </div>
 
