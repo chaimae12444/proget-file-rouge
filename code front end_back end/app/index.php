@@ -29,7 +29,7 @@ $produits = $pdo->query("SELECT * FROM product")->fetchAll(PDO::FETCH_ASSOC);
 
     <!-- Logo et nom du site -->
     <div class="nav-logo">
-        <img src="../assets/css/image/logo.jpg" alt="logo">
+        <img src="../assets/image/logo.jpg" alt="logo">
         <span>Parapharmacie</span>
     </div>
 
@@ -37,7 +37,7 @@ $produits = $pdo->query("SELECT * FROM product")->fetchAll(PDO::FETCH_ASSOC);
     <div class="nav-search">
         <form method="GET" action="index.php">
             <input type="text" name="search" placeholder="Rechercher un produit...">
-            <button type="submit">🔍</button>
+            <button type="submit"></button>
         </form>
     </div>
 
@@ -65,7 +65,7 @@ $produits = $pdo->query("SELECT * FROM product")->fetchAll(PDO::FETCH_ASSOC);
 <header class="hero">
 
     <!-- Bannière du site -->
-    <img src="../assets/css/image/header.png" alt="hero" class="hero-img">
+    <img src="../assets/image/header.png" alt="hero" class="hero-img">
 
 </header>
 
